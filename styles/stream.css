@@ -48,4 +48,17 @@ header nav a:hover{
          url('/images/puss-in-boots-2-finally-revealed-after-10-years_w785.jpg');
     height: 400px;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal-movie .description{
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 40px;
 }
