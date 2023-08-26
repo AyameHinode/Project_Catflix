@@ -9,9 +9,11 @@
     box-sizing:border-box;
 }
 
+/*Basic elements*/
 body{
     background-color: var(--black);
     font-family: "Times New Roman", Times, serif;
+    color: white;
 }
 
 header .container{
@@ -36,4 +38,14 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/*Principal movie*/
+
+.principal-movie{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+         url('/images/puss-in-boots-2-finally-revealed-after-10-years_w785.jpg');
+    height: 400px;
+    background-size: cover;
 }
